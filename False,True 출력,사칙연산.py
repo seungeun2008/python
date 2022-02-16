@@ -1,0 +1,21 @@
+#True,False 출력,사칙연산
+x = float(input("x의 값을 입력하세요"))
+y = float(input("y의 값을 입력하세요"))
+
+print(x)
+print(y)
+print("덧셈은",x+y,"입니다.")
+print("뺄셈은",x-y,"입니다.")
+print("곰셈은",x*y,"입니다.")
+print("나누기는",x/y,"입니다.")
+print("???dms",x//y,"입니다.")
+print("???은",x%y,"입니다.")
+print("???은",x**y,"입니다.")
+
+print()
+print(x == y)
+print(x != y)
+print(x >= y)
+print(x <= y)
+print(x > y)
+print(x < y)
